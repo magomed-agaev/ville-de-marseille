@@ -1,0 +1,94 @@
+section#contact{
+    background-color: #f9f9fb;
+    padding: 100px 15px;
+}
+
+section#contact .container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(108, 196, 254);
+    
+    padding: 60px 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: rgb(46, 46, 46) 0px 10px 50PX -10px; #d6d6d6;
+}
+
+section#contact .container .title{
+    text-align: center;
+    color: #2a2a2a;
+    margin-bottom: 60px;
+    }
+
+section#contact .container .title h6{
+font-size: 1.1em;
+}
+
+section#contact .container .title h3{
+    font-size: 2.5em;
+    }
+
+section#contact .container form{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 600px;
+}
+
+section#contact .container form input{
+width: 47%;
+}
+
+section#contact .container form input:hover,
+section#contact .container form textarea:hover {
+    border-bottom: 2px solide #1fb3bf;
+}
+
+section#contact .container form input,
+section#contact .container form textarea{
+    margin: 15px 0;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solide #e4e4ec;
+    transition: 0.2s;
+}
+
+section#contact .container form textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+section#contact .container form button{
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1987fc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 9px;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+section#contact .container form button:hover{
+    transform: translateY(-5px);
+    box-shadow: rgb(0, 0, 0) 0px 10px 40PX -5px;;
+}
+
+@media screen and (max-widh: 500px){
+    section#contact .container form{
+        flex-direction: column;
+        width: 95%;
+    }
+}
